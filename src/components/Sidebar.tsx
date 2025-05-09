@@ -10,7 +10,7 @@ const navItems = [
 
 export function Sidebar() {
   return (
-    <aside className="h-screen fixed left-0 top-0 w-64 z-20 bg-[var(--card-bg)] border-r border-[var(--card-border)] p-4 flex flex-col">
+    <aside className="h-screen fixed left-0 top-0 w-64 z-20 bg-zinc-950 border-r border-[var(--card-border)] p-4 flex flex-col">
       <h2 className="text-lg font-semibold text-[var(--foreground)] mb-6">Fincontrol</h2>
 
       <nav className="flex flex-col gap-2">
