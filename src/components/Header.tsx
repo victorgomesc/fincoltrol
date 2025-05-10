@@ -13,7 +13,7 @@ export function Header() {
         <input
           type="text"
           placeholder="Buscar..."
-          className="w-full pl-10 pr-4 py-2 rounded-lg bg-[var(--card-bg)] border border-[var(--card-border)] text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition"
+          className="w-full pl-10 pr-4 py-2 rounded-lg bg-zinc-950 border border-[var(--card-border)] text-sm text-[var(--foreground)] placeholder-[var(--muted)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] transition"
         />
       </div>
 
