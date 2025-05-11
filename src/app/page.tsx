@@ -1,7 +1,6 @@
 import { FinanceSummary } from "@/components/FinanceSumary";
 import { Header } from "@/components/Header";
-import { SavingsChart } from "@/components/Poupanca";
-import { AccumulatedSavingsChart } from "@/components/PoupancaAcumulado";
+import SavingAccountsSumary from "@/components/SavingAccountsSumary";
 import { Sidebar } from "@/components/Sidebar";
 
 export default function Home() {
@@ -14,11 +13,7 @@ export default function Home() {
     <Header />
     <main className="flex-1 p-16 overflow-y-auto">
       <FinanceSummary />
-      <div className="flex gap-6">
-        <SavingsChart />
-      <AccumulatedSavingsChart />
-      </div>
-      
+      <SavingAccountsSumary />
     </main>
   </div>
     </div>
