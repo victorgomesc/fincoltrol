@@ -1,6 +1,7 @@
 import React from 'react'
 import { SavingsChart } from './Poupanca'
 import { AccumulatedSavingsChart } from './PoupancaAcumulado'
+import AportesModal from './ApporteDialog'
 
 const SavingAccountsSumary = () => {
   return (
@@ -9,6 +10,7 @@ const SavingAccountsSumary = () => {
             <h3 className="text-3xl mt-20 font-bold">Resumo da Poupança</h3>
         </div>
       <div className="flex gap-6">
+        <AportesModal />
         <SavingsChart />
         <AccumulatedSavingsChart />
       </div>
