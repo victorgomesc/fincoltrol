@@ -9,9 +9,9 @@ export default function Home() {
       <div className="fixed top-0 left-0 w-64 h-screen z-20">
       <Sidebar />
       </div>
-      <div className="ml-64 flex flex-col">
+    <div className="ml-64 flex flex-col">
     <Header />
-    <main className="flex-1 p-16 overflow-y-auto">
+    <main className="flex-1 px-16">
       <FinanceSummary />
       <SavingAccountsSumary />
     </main>

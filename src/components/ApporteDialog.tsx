@@ -53,10 +53,10 @@ export default function AportesModal() {
   return (
     <div className="p-4">
       <button
-        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg shadow"
+        className="bg-blue-600 flex gap-3 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg shadow"
         onClick={abrirModal}
       >
-        Gerenciar Aportes
+        Aportes
       </button>
 
       {showModal && (

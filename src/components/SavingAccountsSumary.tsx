@@ -9,8 +9,8 @@ const SavingAccountsSumary = () => {
         <div>
             <h3 className="text-3xl mt-20 font-bold">Resumo da Poupança</h3>
         </div>
-      <div className="flex gap-6">
         <AportesModal />
+      <div className="flex gap-6">
         <SavingsChart />
         <AccumulatedSavingsChart />
       </div>
