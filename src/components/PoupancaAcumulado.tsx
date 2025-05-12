@@ -36,7 +36,7 @@ const accumulatedData = baseData.map((item, index) => {
 
 export function AccumulatedSavingsChart() {
   return (
-    <section className="bg-zinc-950 border border-[var(--card-border)] mt-16 w-2/4 p-5 rounded-xl shadow-sm">
+    <section className="bg-zinc-950 border border-[var(--card-border)] w-2/4 p-5 rounded-xl shadow-sm">
       <h2 className="text-lg font-semibold text-[var(--foreground)] mb-4">
         Valor Acumulado da Poupança
       </h2>

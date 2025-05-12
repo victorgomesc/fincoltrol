@@ -11,6 +11,7 @@ const SavingAccountsSumary = () => {
         </div>
         <AportesModal />
       <div className="flex gap-6">
+        
         <SavingsChart />
         <AccumulatedSavingsChart />
       </div>
